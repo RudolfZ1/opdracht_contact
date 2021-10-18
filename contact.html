@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- hier zet je de code in de head tags -->
+    
+    <meta charset="utf-8"/>
+    <link rel= "stylesheet" type="text/css" href="contact_styles.css">
+    <title>Contact</title>
+    <nav>
+    <ul>
+      <li><a href="basic_html2.html"> <h3>Pagina 2</h3></a></li>
+      <li><a href="basic_html1.html"><h3>Home</h3></a></li>
+    </nav> 
+     
+    </ul>
+    <style>
+      section {
+          width: 40%;
+          height: 100%;
+          padding-left: 5px;
+          float: left;
+          box-sizing: border-box;
+
+      }
+      article {
+        width: 40%;
+        height: 100%;
+        float: left;
+        box-sizing: border-box;
+      }
+      footer {
+      padding: 30px;
+      height: 100px;
+      clear: left;
+      background-color:cadetblue;
+    }
+  </style>
+
+ 
+  </head>
+  <header>
+    
+    <h1 class="border-greenyellow">CONTACT</h1>
+
+  </header>
+  <main>
+  <body>
+    
+  <!-- hier zet je de code in de body tags-->
+   
+    
+    <section>
+    <p>neem contact met ons op en vul het formulier in</p>
+
+    
+      <h1>Contactformulier</h1>
+
+<form action="/action_page.php">
+  <label for="fname">Voornaam:</label><br>
+   <input type="text" id="fname" name="voornaam"><br>
+  
+  <label for="lname">Achternaam:</label><br>
+  <input type="text" id="lname" name="achtenraam"><br>
+  
+<label for="email">Email</label><br>
+<input type="text" id="email" name="email"><br>
+
+<label for="telefoon">Telefoonnummer</label><br>
+<input type="text" id="telefoon" name="telefoon"><br>
+
+
+ <label for="fname">Woonplaats:</label><br>
+  <input type="text" id="woonplaats" name="woonplaats"><br>
+  
+  <label for="lname">Adres:</label><br>
+  <input type="text" id="adres" name="adres"><br>
+  
+  <label for="fname">Leeftijd:</label><br>
+  <input type="text" id="Leeftijd" name="leeftijd"><br>
+  
+  <label for="lname">Geslacht:</label><br>
+  <input type="text" id="geslacht" name="geslacht"><br>
+
+
+
+    <input type="radio" id="html" name="geslacht" value="m">
+    <label for="man">m</label><br>
+    <input type="radio" id="css" name="geslacht" value="vr">
+    <label for="vrouw">vr</label><br>
+</form>
+</section>
+  <article>
+    <form>
+<p>Mijn favoriete keuken</p>    
+  
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> Frans</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> Italiaans</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> Arabisch</label><br><br>
+    <input type="submit" value="Submit">
+  </form>
+  <form>
+    <p>kies je favoriete kleur</p>
+    <form action="/action_page.php">
+    
+      <input type="color" value="favcolor" name="kies" value="red">
+      <input type="submit" value="Submit"><br>
+
+      <label for="lname">Vertel over jezelf/biografie:</label><br>
+  <input type="text" id="bio" name="bio"><br>
+    </form>
+  <form>
+  <p>Voeg je laatste recept toe, en klik op "Kies Bestand" om je bestand te laden :</p>
+
+<form action="/action_page.php">
+  <input type="file" id="bestandsnaam" name="bestandsnaam">
+  <input type="submit" id="verzend" name="verzend"
+</form>
+  <p>Klik op reset als je wilt wijzigen</p>
+  <form action="/action_page.php">
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset"><br>
+
+     </form>
+     <h3>Link naar je website</h3>
+    
+    </article>
+    </main>
+    <footer>
+        
+      <p>Naam, adres, telefoon, webadres, email, bankaccount</p>
+    </footer>
+
+    </body>
+   
+    
+    
+ 
+</html>
+
+<!--eisen invul format-->
+  <!--
+    name!
+email!
+telephone number (tel)
+age
+date of birth
+gender (radio buttons)
+favorite cuisine: French, Italian, Spanish, or Arabic (checkbox)
+favorite apron color (color picker)
+biography (text-area)
+upload your latest recipe (file upload)
+URL to recipe website (url)
+button of type reset to clear the form
+button of type submit to submit the form
+Part 2
+Verify that the data gets stored in Netlify.
+
+Deploy your website to Netlify.
+Check whether all the data is stored correctly, make changes where necessary.
+Submitting
+
+This exercise can be submitted on the next page!
+
+Complete and continue-->

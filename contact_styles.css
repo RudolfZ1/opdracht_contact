@@ -1,0 +1,78 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+/* dit is de koptekst van alle pagina's*/
+h1.border-greenyellow {
+  border-color: darkgray;
+  border-style: solid;
+
+  border-top-width: 12px;
+  border-bottom-width: 12px;
+  border-left-width: 9px;
+  border-right-width: 9px;
+  width: auto;
+  text-align: left;
+  padding-left: 30px;
+  background-color: orange;
+}
+input[type="submit"] {
+  width: 80px;
+  height: 40px;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+input[type="text"] select {
+  width: 200px;
+  height: 40px;
+}
+input[type="color"] {
+  width: 80px;
+}
+/*test div*/
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  color: navy;
+  text-align: left;
+}
+footer {
+  color: black;
+}
